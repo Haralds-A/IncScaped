@@ -3,12 +3,17 @@
   width: 100%;
   display: flex;
   justify-content: space-between;
+  align-items: center; /* Center vertically */
   margin-bottom: 25px;
+  background-color: rgb(33, 32, 32);
 
   .logo-container {
     height: 100%;
     width: 70px;
-    padding: 25px;
+    padding: 0; /* Remove padding */
+    display: flex;
+    align-items: center; /* Center vertically */
+    padding-left: 20px;
   }
 
   .nav-links-container {
@@ -21,6 +26,7 @@
     .nav-link {
       padding: 10px 15px;
       cursor: pointer;
+      color: white;
     }
   }
 }

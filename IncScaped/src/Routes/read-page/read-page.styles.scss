@@ -1,0 +1,15 @@
+.storie-container {
+    display: flex; 
+    justify-content: center;
+    align-items: flex-start; 
+    text-align: left;
+    max-width: 60%;
+    margin: 0 auto;
+  }
+  
+  .storie-content {
+    width: 70%;
+    padding: 20px;
+    border: 1px solid #ddd;
+    margin-right: 20px;
+  }

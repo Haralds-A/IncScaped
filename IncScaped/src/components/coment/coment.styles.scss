@@ -1,0 +1,21 @@
+.comment-container {
+    background-color: #f5f5f5; // Set your desired background color
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd; // Add a border for separation
+  }
+ 
+  .comment-header {
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  .comment-text {
+    font-size: 16px;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .comment-container {
+      margin: 10px 0;
+      padding: 10px;
+    }
+  }
